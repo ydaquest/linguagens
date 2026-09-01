@@ -1,27 +1,37 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
-#define pi 3.141597
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
-
+//podemos usar tamb?m estrutura condicional composta, significa que switch e case Switch e Break//
 int main(int argc, char *argv[]) {
-	float r, area;
-	printf("insira o raio r no circulo\n");
-	scanf("%d",&r);
-	area-pi *(r*r);
-	peintf("a area do circulo de raio r %0.2f",r, area);
+	char letra;
+	
+	printf("Digite uma letra:");
+	scanf("%c",&letra);
+	
+	if (letra == 'a'||letra == 'e'||letra == 'i'||letra == 'o'||letra == 'u'){
+		printf("Sua letra eh uma vogal!");
+			if (letra == 'a'||letra == 'e');{
+				printf("\n Aoba");
+			}
+	 }else{
+		printf("67");
+	}
+	
+	switch (letra){
+	case 'a':
+		printf("\n A de amor");
+		break;
+	case 'b':
+		printf("\n b de baixinho");
+		break;
+	case 'c':
+		printf("\n A de coracao");
+		break;
+	case 'd':
+		printf("\n d de dedinho");		
+}
+
 	
 	
-	float baseMaior = 10;
-	float baseMenor = 6;
-	float altura = 4;
-	float areaTrapezio;
-	
-	areaTrapezio= ((baseMaior + baseMenor) *
-	altura) / 2;
-	
-	printf ("a rea do trapezio e: %.2f", areaTrapezio);
 	return 0;
 }
