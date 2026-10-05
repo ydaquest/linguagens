@@ -308,3 +308,7 @@ int main() {
     // Indica que o programa terminou corretamente
     return 0;
 }
+
+OBS: usei a ia para me ajudar tanto em alguns exercicios como aqui nas anotaçôes.
+
+
