@@ -309,6 +309,4 @@ int main() {
     return 0;
 }
 
-OBS: usei a ia para me ajudar tanto em alguns exercicios como aqui nas anotaçôes.
-
 
