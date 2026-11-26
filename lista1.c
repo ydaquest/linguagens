@@ -5,7 +5,7 @@
 // Funcao que recebe dois valores e mostra eles na ordem inversa
 void inverso() {
     int a, b;
-
+\\qqq
     // Solicita o primeiro valor
     printf("\nDigite um valor: ");
     scanf("%d", &a);
